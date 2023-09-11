@@ -9,8 +9,6 @@ import reportWebVitals from './reportWebVitals';
 import './assets/css/index.less';
 import { ThemeProvider } from 'styled-components';
 import theme from './theme';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

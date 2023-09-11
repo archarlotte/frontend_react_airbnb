@@ -2,7 +2,6 @@ import { Rating } from '@mui/material';
 import React, { memo, useRef, useState } from 'react';
 import styled from 'styled-components';
 import { Carousel } from 'antd';
-import Slider from 'react-slick';
 import IconArrowLeft from '@/assets/svg/icon-arrow-left';
 import IconArrowRight from '@/assets/svg/icon-arrow-right';
 import Indicator from '../Indicator';
