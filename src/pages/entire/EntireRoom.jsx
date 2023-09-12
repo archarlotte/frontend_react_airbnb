@@ -1,9 +1,6 @@
 import RoomItem from '@/components/room/RoomItem';
-import { changeDetailContent } from '@/store/detailAction';
-import PropTypes from 'prop-types';
 import React, { memo } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import styled from 'styled-components';
 
 const EntireRoomWrapper = styled.div`

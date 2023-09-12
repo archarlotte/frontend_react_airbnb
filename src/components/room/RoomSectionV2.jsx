@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 import React, { memo } from 'react';
 import ScrollView from '../scroll-view/ScrollView';
-import RoomFooter from './RoomFooter';
 import RoomItem from './RoomItem';
 import SectionHeader from './RoomSectionHeader';
 

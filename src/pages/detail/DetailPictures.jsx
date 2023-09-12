@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React, { memo, useEffect, useState } from 'react';
+import React, { memo, useState } from 'react';
 import styled from 'styled-components';
 import PictureBrowser from './PictureBrowser';
 

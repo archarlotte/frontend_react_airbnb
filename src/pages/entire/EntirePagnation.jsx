@@ -1,7 +1,6 @@
 import { fetchEntireRoomListAction } from '@/store/entireAction';
-import { useSelect } from '@mui/base';
 import Pagination from '@mui/material/Pagination';
-import React, { memo, useEffect } from 'react';
+import React, { memo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
 

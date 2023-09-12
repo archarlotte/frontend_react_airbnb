@@ -3,7 +3,6 @@ import IconArrowRight from '@/assets/svg/icon-arrow-right';
 import Indicator from '@/components/Indicator';
 import PropTypes from 'prop-types';
 import React, { memo, useEffect, useState } from 'react';
-import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import styled from 'styled-components';
 import classnames from 'classnames';
 
@@ -179,7 +178,7 @@ const PictureBrowser = memo((props) => {
                       key={item}
                       className={classnames('item', { active: selectedIndex === index })}
                       onClick={(e) => setSelectedIndex(index)}>
-                      <img src={item} />
+                      <img src={item} alt='x'/>
                     </div>
                   );
                 })}

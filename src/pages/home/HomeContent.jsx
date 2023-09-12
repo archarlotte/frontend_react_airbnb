@@ -28,26 +28,26 @@ const HomeContent = memo(() => {
 
   useEffect(() => {
     dispatch(fetchDiscountAction());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     dispatch(fetchHomeDataAction());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     dispatch(fetchHighScoreAction());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     dispatch(fetchRecommendAction());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     dispatch(fetchLongForAction());
-  }, []);
+  }, [dispatch]);
   useEffect(() => {
     dispatch(fetchPlusAction());
-  }, []);
+  }, [dispatch]);
 
   console.log(plusInfo);
 

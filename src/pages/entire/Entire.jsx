@@ -17,7 +17,7 @@ const Entire = memo(() => {
 
   useEffect(() => {
     dispatch(fetchEntireRoomListAction());
-  }, []);
+  }, [dispatch]);
   return (
     <EntireWrapper>
       <AppHeader isFixed={true} />
