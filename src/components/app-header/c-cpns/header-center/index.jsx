@@ -1,6 +1,6 @@
 import IconSearch from '@/assets/svg/icon-search'
 import React, { memo } from 'react'
-import { styled } from 'styled-components'
+import styled from 'styled-components'
 
 const CenterWrapper = styled.div`
   .search-bar {

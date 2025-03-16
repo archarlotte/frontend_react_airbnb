@@ -1,7 +1,7 @@
 import IconMenu from '@/assets/svg/icon-menu';
 import IconGlobal from '@/assets/svg/icon-global';
 import React, { memo, useState } from 'react';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 import IconAvatar from '@/assets/svg/icon-avatar';
 
 const RightWrapper = styled.div`

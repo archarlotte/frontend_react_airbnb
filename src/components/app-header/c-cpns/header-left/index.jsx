@@ -1,7 +1,7 @@
 import IconLogo from '@/assets/svg/icon-logo'
 import React, { memo } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { styled } from 'styled-components'
+import styled from 'styled-components'
 
 const LeftWrapper = styled.div`
   flex: 1;
